@@ -1,0 +1,1 @@
+Displays an editabel version of the Walty standard template, with option to send (To, From, templateID, serviceID, contentTags)
