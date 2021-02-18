@@ -1,1 +1,5 @@
-Displays an editabel version of the Walty standard template, with option to send (To, From, templateID, serviceID, contentTags)
+# sendGrid - Walty App
+
+### React App as POC to showcase ability to integrate SendGrid service with Walty backoffice.
+
+### https://langejm.github.io/sendGrid-Walty/
