@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sendGrid-Walty/static/css/main.704a52d4.chunk.css",
-    "main.js": "/sendGrid-Walty/static/js/main.4e8ce5d3.chunk.js",
-    "main.js.map": "/sendGrid-Walty/static/js/main.4e8ce5d3.chunk.js.map",
+    "main.js": "/sendGrid-Walty/static/js/main.b8efaf1c.chunk.js",
+    "main.js.map": "/sendGrid-Walty/static/js/main.b8efaf1c.chunk.js.map",
     "runtime-main.js": "/sendGrid-Walty/static/js/runtime-main.235d1c58.js",
     "runtime-main.js.map": "/sendGrid-Walty/static/js/runtime-main.235d1c58.js.map",
     "static/css/2.150d169a.chunk.css": "/sendGrid-Walty/static/css/2.150d169a.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.6c709608.chunk.js",
     "static/css/main.704a52d4.chunk.css",
-    "static/js/main.4e8ce5d3.chunk.js"
+    "static/js/main.b8efaf1c.chunk.js"
   ]
 }
