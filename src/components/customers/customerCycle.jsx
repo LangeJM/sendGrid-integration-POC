@@ -51,7 +51,7 @@ export const CustomerCycle = (props) => {
       className="d-flex flex-column m-3 align-items-center"
     >
       <div id="templatesHeader">
-        <h5 className="pt-2 something">Customer Cycle</h5>
+        <h5 className="pt-1">Customer Cycle</h5>
       </div>
       <div id="templates" className="mt-1">
         {customerEnums.map((item, idx) => (

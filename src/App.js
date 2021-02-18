@@ -118,7 +118,7 @@ function App() {
       </div>
       <div className="d-flex flex-row mx-5">
         <CustomerCycle customerEnums={activeCustomerEnums} />
-        <EmailTemplates />
+        <EmailTemplates activeCustomerEmail={activeCustomerEmail} />
       </div>
     </div>
   );

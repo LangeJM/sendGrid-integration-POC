@@ -3,7 +3,7 @@ import { EmailTemplateComponent } from "./emailTemplateComponent";
 import React, { useState, useEffect } from "react";
 import { Dropdown, Button } from "react-bootstrap";
 
-export const EmailTemplates = () => {
+export const EmailTemplates = (props) => {
   const [emailTemplates, setEmailTemplates] = useState("");
   const [templateHtml, setTemplateHtml] = useState("");
   const [activeDropDownItem, setActiveDropDownItem] = useState(
@@ -14,7 +14,6 @@ export const EmailTemplates = () => {
     getEmailTemplates()
       .then((res) => {
         createTemplatesObject(res.data.result);
-        console.log("Raw API response: ", res.data.result);
       })
       .catch((err) => console.log(err));
   }, []);
@@ -42,14 +41,15 @@ export const EmailTemplates = () => {
       .then((res) => {
         const html = res.data.versions[0].html_content;
         const htmlCleaned = html.split("<body>")[1].split("</body>")[0]; // this is to clean the html from body tags that overwrite the document style (e.g. font family)
-        // setTemplateHtml(res.data.versions[0].html_content);   html as it arrives from Sendgrid API
         setTemplateHtml(htmlCleaned);
-        console.log(res.data);
       })
       .catch((err) => console.log(err));
   };
 
-  console.log(emailTemplates);
+  const handleSendEmail = () => {
+    alert("Email has been sent!");
+  };
+
   return (
     <div
       id="templatesContainer"
@@ -84,7 +84,13 @@ export const EmailTemplates = () => {
         {/* {templateHtml} */}
         <div dangerouslySetInnerHTML={{ __html: templateHtml }} />
         {templateHtml && (
-          <Button className="dark mt-3 float-right w-25">Send Email</Button>
+          <Button
+            className="dark mt-3 float-right w-25"
+            disabled={!props.activeCustomerEmail}
+            onClick={handleSendEmail}
+          >
+            Send Email
+          </Button>
         )}
       </div>
     </div>
