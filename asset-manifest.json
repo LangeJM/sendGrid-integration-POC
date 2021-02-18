@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sendGrid-Walty/static/css/main.704a52d4.chunk.css",
+    "main.js": "/sendGrid-Walty/static/js/main.4e8ce5d3.chunk.js",
+    "main.js.map": "/sendGrid-Walty/static/js/main.4e8ce5d3.chunk.js.map",
+    "runtime-main.js": "/sendGrid-Walty/static/js/runtime-main.235d1c58.js",
+    "runtime-main.js.map": "/sendGrid-Walty/static/js/runtime-main.235d1c58.js.map",
+    "static/css/2.150d169a.chunk.css": "/sendGrid-Walty/static/css/2.150d169a.chunk.css",
+    "static/js/2.6c709608.chunk.js": "/sendGrid-Walty/static/js/2.6c709608.chunk.js",
+    "static/js/2.6c709608.chunk.js.map": "/sendGrid-Walty/static/js/2.6c709608.chunk.js.map",
+    "static/js/3.52c48ffd.chunk.js": "/sendGrid-Walty/static/js/3.52c48ffd.chunk.js",
+    "static/js/3.52c48ffd.chunk.js.map": "/sendGrid-Walty/static/js/3.52c48ffd.chunk.js.map",
+    "index.html": "/sendGrid-Walty/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/sendGrid-Walty/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.704a52d4.chunk.css.map": "/sendGrid-Walty/static/css/main.704a52d4.chunk.css.map",
+    "static/js/2.6c709608.chunk.js.LICENSE.txt": "/sendGrid-Walty/static/js/2.6c709608.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.235d1c58.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.6c709608.chunk.js",
+    "static/css/main.704a52d4.chunk.css",
+    "static/js/main.4e8ce5d3.chunk.js"
+  ]
+}
