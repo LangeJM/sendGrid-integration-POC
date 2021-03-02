@@ -1,4 +1,4 @@
-# sendGrid - Walty App
+# sendGrid - Integration - POC
 
 ### React App as POC to showcase ability to integrate SendGrid service with Walty backoffice.
 
